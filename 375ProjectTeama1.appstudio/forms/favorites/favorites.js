@@ -1,4 +1,4 @@
-//favorites page
+/*//favorites page
 
 let query= ""
 let req=""
@@ -23,3 +23,4 @@ submitFavorites.onclick=function(s){
     console.log(`The user chose ${s} and .selection is ${optionsDrp.selection}.`)
   }
   }
+  */
