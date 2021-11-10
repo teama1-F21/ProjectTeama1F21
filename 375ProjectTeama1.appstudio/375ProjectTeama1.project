@@ -34,6 +34,14 @@
             "favorites",
             "favorites.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "eatOut",
+            "eatOut.json"
+          ]
         }
       ],
       "configxml": null,
