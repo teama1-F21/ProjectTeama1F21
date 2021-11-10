@@ -28,8 +28,8 @@
   "hidden": "",
   "icon": "",
   "iconTitle": "",
-  "id": "Button2",
-  "left": 125,
+  "id": "submitEatOut",
+  "left": 200,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 160,
+  "top": 137,
   "value": "Submit",
   "width": "auto"
 }
