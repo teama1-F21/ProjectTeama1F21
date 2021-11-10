@@ -2,14 +2,60 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "",
+  "background": "white",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
   "borderWidth": "",
   "cached_js": null,
   "cached_js_script_hash": null,
-  "children": [],
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "login",
+        "Elements",
+        "username.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "login",
+        "Elements",
+        "password.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "login",
+        "Elements",
+        "btnLogin.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "login",
+        "Elements",
+        "Button1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "login",
+        "Elements",
+        "lblMessage.json"
+      ]
+    }
+  ],
   "class": "",
   "designHeight": 0,
   "designWidth": 0,

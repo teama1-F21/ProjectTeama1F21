@@ -10,7 +10,7 @@ btnSubmit.onclick=function(){
     alert(query)
     
     // replace my netID with yours (2 places)
-    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + teamID + "&query=" + query)
+    req = Ajax(https://ormond.creighton.edu/courses/375/Groups/Group-A1/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + netID + "&query=" + query)
 
     if (req.status == 200) { //transit worked.
         if (req.responseText == 500)    // for our server - this means the insert succeeded
