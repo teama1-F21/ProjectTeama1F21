@@ -1,3 +1,4 @@
+/*
 let query= ""
 let req=""
 let pw="LucyiSgetting0ld69420"
@@ -7,7 +8,7 @@ let teamID="375groupa1"
 req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + teamID + "&query=" + query)
 
 
-eatOut.onshow=function(){
+dineIn.onshow=function(){
 optionsDrp.clear()
 let FoodType=["hearty","dessert","fish","pizza"]
     for (i = 0; i < FoodType.length; i++)
@@ -26,4 +27,4 @@ optionsDrp.onclick=function(s){
 submitEatOut.onclick=function(){
 
 }
-
+*/

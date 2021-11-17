@@ -14,18 +14,9 @@
       "!type": "External",
       "file": [
         "forms",
-        "eatOut",
+        "favoriteRestaurants",
         "Elements",
-        "optionsDrp.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "eatOut",
-        "Elements",
-        "submitEatOut.json"
+        "Label2.json"
       ]
     }
   ],
@@ -35,7 +26,7 @@
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "eatOut",
+  "id": "favoriteRestaurants",
   "language": "JavaScript",
   "left": "0",
   "locked": false,
@@ -43,7 +34,7 @@
   "onhide": "",
   "onkeypress": "",
   "onresize": "",
-  "onshow": "eatOut.onshow()",
+  "onshow": "",
   "openMode": "none",
   "parentForm": "",
   "position": "absolute",

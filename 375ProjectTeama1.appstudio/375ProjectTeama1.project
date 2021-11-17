@@ -39,8 +39,24 @@
           "!type": "External",
           "file": [
             "forms",
-            "eatOut",
-            "eatOut.json"
+            "dineIn",
+            "dineIn.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "favoriteRecipes",
+            "favoriteRecipes.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "favoriteRestaurants",
+            "favoriteRestaurants.json"
           ]
         }
       ],
@@ -63,7 +79,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "eatOut",
+      "firstform": "favorites",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",
