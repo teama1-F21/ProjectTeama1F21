@@ -13,7 +13,7 @@
       "androidKeystore": "certificates/android.p12",
       "androidKeystorePassword": "mypassword",
       "androidPackageType": "apk",
-      "background": "",
+      "background": "white",
       "backgroundimage": "",
       "browserwarnmsg": "Please use Google Chrome, Apple Safari or another supported browser.",
       "cached_js": null,
@@ -23,8 +23,24 @@
           "!type": "External",
           "file": [
             "forms",
-            "Form1",
-            "Form1.json"
+            "dineIn",
+            "dineIn.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "calTracker",
+            "calTracker.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "functionPractice",
+            "functionPractice.json"
           ]
         }
       ],
@@ -47,7 +63,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "Form1",
+      "firstform": "CalTracker",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",
