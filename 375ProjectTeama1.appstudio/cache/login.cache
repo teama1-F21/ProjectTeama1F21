@@ -1,5 +1,4 @@
 //login
-
 let query = ""
 
 let req = ""
@@ -12,24 +11,32 @@ let netID = "nbp30352"
 
 let teamID = "375groupa1"
 
-//req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + netID + "&query=" + query)
 
-
-btnLogin.onclick=function(){
-// use select query
-    query = "Select username,passcode FROM clients "
-
+btnLogin.onclick = function() {
+    // use select query
+    let username1 = username.value
+    
+    let password1 = password.value
+    
+    query = "Select username,passcode FROM clients WHERE username = ' " -username1-" ' and passcode =' "-password1-" ' "
+    alert(query)
+    
     req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + teamID + "&query=" + query)
-let username = username.value
-let password = password.value
-// use a loop
-  if ((username == ' ') && ( password == 'null'  || password == 'undefined')){
-  ChangeForm(homePage)
-  }
-else{
-  lblMessage.textContent= "Try Again"
+    results = JSON.parse(req.responseText)
+    console.log(results)
+
+    // use a loop here
+ /*
+    if (query == true) {
+      ChangeForm(homePage)
+    } else {
+      lblMessage.value = "Try Again"
+    }
+    */
+    
 }
 
-Button1.onclick=function(){
+
+btnNewAccount.onclick=function(){
   ChangeForm(newAccount)
 }

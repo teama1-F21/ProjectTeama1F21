@@ -25,7 +25,7 @@
         "forms",
         "homePage",
         "Elements",
-        "Image1.json"
+        "dineIn.json"
       ]
     },
     {
@@ -34,7 +34,7 @@
         "forms",
         "homePage",
         "Elements",
-        "Image1Copy.json"
+        "dineOut.json"
       ]
     }
   ],

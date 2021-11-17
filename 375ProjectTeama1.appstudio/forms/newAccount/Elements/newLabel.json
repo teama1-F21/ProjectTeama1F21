@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "newLabel",
   "labelStyle": "text",
-  "left": 30,
+  "left": 9,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 334,
+  "top": 436,
   "value": "Label",
   "width": "auto"
 }

@@ -1,11 +1,11 @@
 //homepage
 /*
 
-Image1.onclick=function(){
-  ChangeForm(pickup)
+dineIn.onclick=function(){
+  ChangeForm(login)
 }
 
-Image1Copy.onclick=function(){
-  ChangeForm(dinein)
+dineOut.onclick=function(){
+  ChangeForm(dineOut)
 }
 */
