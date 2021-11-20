@@ -13,18 +13,16 @@ let netID = "nbp30352"
 let teamID = "375groupa1"
 
 addNew.onclick = function() {
-  let firstName = firstName.value
-  let lastName = lastName.value
-  let username = newUsername.value
-  let password = newPassword.value
+  let newFirstName = firstName.value
+  let newLastName = lastName.value
+  let accUsername = newUsername.value
+  let accPassword = newPassword.value
+  query = "INSERT INTO clients (firstName,lastName,username,passcode) VALUES('"+newFirstName +"', '"+ newLastName +"', '"+accUsername +"', '"+accPassword +"')"
 
-  query = "INSERT INTO clients VALUES ("+firstName+","+lastName+"," + username + ", " + password + ")"
-  alert(query)
 
-  // replace my netID with yours (2 places)
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + teamID + "&query=" + query)
-
   if (req.status == 200) { //transit worked.
+  results = JSON.parse(req.responseText)
     if (req.responseText == 500) // for our server - this means the insert succeeded
       newLabel.value = "You have successfully created an account!"
     else
@@ -36,4 +34,5 @@ addNew.onclick = function() {
 newNext.onclick = function() {
   ChangeForm(homePage)
 }
+
 */

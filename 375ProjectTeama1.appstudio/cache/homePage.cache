@@ -8,4 +8,12 @@ dineIn.onclick=function(){
 dineOut.onclick=function(){
   ChangeForm(dineOut)
 }
+
+favorite.onclick=function(){
+  ChangeForm(favorite)
+}
+
+calorieTracker.onclick=function(){
+  ChangeForm(calorieTracker)
+}
 */
