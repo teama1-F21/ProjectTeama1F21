@@ -14,10 +14,10 @@
   "fontSize": "",
   "fontStyle": "",
   "fontWeight": "",
-  "height": 95,
+  "height": 130,
   "hidden": "",
   "id": "dineOut",
-  "left": 196,
+  "left": 177,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -46,8 +46,8 @@
   "right": "auto",
   "script": "",
   "shape": "",
-  "src": "/Users/nehapatil/Pictures/Photos Library.photoslibrary/originals/2/2F88EB3D-7ECE-4C79-903B-3A0FCB337E97.jpeg",
+  "src": "images/Dine-out.png",
   "style": "",
-  "top": 60,
-  "width": 94
+  "top": 80,
+  "width": 126
 }

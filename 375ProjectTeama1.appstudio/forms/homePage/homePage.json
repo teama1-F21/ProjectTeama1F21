@@ -36,6 +36,24 @@
         "Elements",
         "dineOut.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "homePage",
+        "Elements",
+        "favorite.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "homePage",
+        "Elements",
+        "calorieTracker.json"
+      ]
     }
   ],
   "class": "",
