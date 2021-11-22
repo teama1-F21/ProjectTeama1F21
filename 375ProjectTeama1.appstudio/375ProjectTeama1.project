@@ -23,14 +23,6 @@
           "!type": "External",
           "file": [
             "forms",
-            "dineIn",
-            "dineIn.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
             "calTracker",
             "calTracker.json"
           ]
@@ -39,8 +31,8 @@
           "!type": "External",
           "file": [
             "forms",
-            "functionPractice",
-            "functionPractice.json"
+            "dineIn",
+            "dineIn.json"
           ]
         }
       ],
@@ -63,7 +55,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "dineIn",
+      "firstform": "calTracker",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",

@@ -34,7 +34,7 @@
         "forms",
         "dineIn",
         "Elements",
-        "RecipeOutput.json"
+        "DineinHome.json"
       ]
     },
     {
@@ -43,7 +43,7 @@
         "forms",
         "dineIn",
         "Elements",
-        "DineinHome.json"
+        "lblRecipe.json"
       ]
     }
   ],
