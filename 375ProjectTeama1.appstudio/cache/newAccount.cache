@@ -11,7 +11,7 @@ let pw = "Fluffy.2013"
 let netID = "nbp30352"
 
 let teamID = "375groupa1"
-
+*/
 addNew.onclick = function() {
   let newFirstName = firstName.value
   let newLastName = lastName.value
@@ -35,4 +35,3 @@ newNext.onclick = function() {
   ChangeForm(homePage)
 }
 
-*/

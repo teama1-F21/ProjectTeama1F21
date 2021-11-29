@@ -1,6 +1,6 @@
 //login
 
-/*
+
 let query = ""
 
 let req = ""
@@ -35,4 +35,5 @@ btnLogin.onclick = function() {
 btnNewAccount.onclick = function() {
   ChangeForm(newAccount)
 }
-*/
+
+
