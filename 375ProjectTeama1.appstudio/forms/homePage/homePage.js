@@ -1,5 +1,5 @@
 //homepage
-/*
+
 
 dineIn.onclick=function(){
   ChangeForm(login)
@@ -16,4 +16,3 @@ favorite.onclick=function(){
 calorieTracker.onclick=function(){
   ChangeForm(calorieTracker)
 }
-*/
