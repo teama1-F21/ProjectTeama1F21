@@ -42,6 +42,38 @@
             "homePage",
             "homePage.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "favorites",
+            "favorites.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "calTracker",
+            "calTracker.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "dineInHome",
+            "dineInHome.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "api",
+            "api.json"
+          ]
         }
       ],
       "configxml": null,
@@ -63,7 +95,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "login",
+      "firstform": "api",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",

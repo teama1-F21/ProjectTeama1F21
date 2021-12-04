@@ -2,7 +2,7 @@
 
 
 dineIn.onclick=function(){
-  ChangeForm(login)
+  ChangeForm(dineInHome)
 }
 
 dineOut.onclick=function(){
@@ -10,9 +10,9 @@ dineOut.onclick=function(){
 }
 
 favorite.onclick=function(){
-  ChangeForm(favorite)
+  ChangeForm(favorites)
 }
 
 calorieTracker.onclick=function(){
-  ChangeForm(calorieTracker)
+  ChangeForm(calTracker)
 }
